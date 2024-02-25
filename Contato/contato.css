@@ -81,16 +81,18 @@ body {
 .contact h2{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     height: 30px;
     color: #161b2b;
     font-size: 50px;
     font-family: "Dongle", sans-serif;    font-weight: 200;
 }
 .contact h3{
-    font-size: 16px;
+    font-size: 12px;
     color: #a3a3a3;
     font-weight: 500;
+    line-height: 18px;
+    margin-left: 2px;
 }
 .contact-infos {
     margin: 100px 0px 20px 0px;
