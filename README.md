@@ -23,11 +23,11 @@ A página inclui:
 
 ## GitHub Pages
 
-O site está hospedado no GitHub Pages e pode ser acessado através do link: [Link para o site hospedado](inserir_link_aqui).
+O site está hospedado no GitHub Pages e pode ser acessado através do link: [Deploy Link](https://laylascastro.github.io/DevLinks-Incode-Modulo-2-2024.1/index.html).
 
 ## Como Utilizar
 
-Para visualizar o site localmente, basta clonar este repositório e abrir o arquivo `index.html` em seu navegador:
+Para visualizar o site localmente, basta clonar este repositório e abrir o arquivo `Index.html` em seu navegador:
 
 ```bash
 git clone https://github.com/LaylaSCastro/DevLinks-Incode-Modulo-2-2024.1
