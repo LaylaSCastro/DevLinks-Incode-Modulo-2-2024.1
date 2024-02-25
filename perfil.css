@@ -8,6 +8,7 @@
 body {
     background-color: rgb(22, 27, 43);
 }
+
 .navContainer {
     display: flex;
     justify-content: flex-end;
@@ -51,109 +52,95 @@ body {
     transform: scaleX(1);
     transform-origin: right;
 }
-
 .container {
     display: flex;
-    box-sizing: border-box;
-    margin: 3% 112px;
+    color: #fff;
+    margin: 50px 0px;
+    animation-delay: 1.5s;
+}
+.info {
+    opacity: 0;
+    background-color: #fabecb;
+    height: 100vh;
+    width: 450px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    color: #161b2b;
+    display: block;
+    padding: 30px 50px;
+    color: #fff;
+    box-shadow: 0 0 40px #000000 ;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1.5s;
+}
+.name, .year, .school {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 15px;
+}
+.info div h3{
+    color: #161b2b;
+    font-size: 16px;
 }
 .imgContainer {
-    border: #ffcbd6 solid;
-    height: 460px;
-    width: 460px;
-    margin: auto;
+    text-align: center;
+    border: #161b2b solid;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
+    padding: 7px 0px;
     opacity: 0;
-    padding: 12px 12px;
     animation: slidePlus 1s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
+    margin: 0px auto;
 }
 
 .imgContainer img{
-    height: 430px;
-    width: 430px;
+    height: 280px;
+    width: 280px;
     border-radius: 100%;
     box-shadow: 0 0 50px #000000;
 }
-
-.textContainer {
-    color: rgb(255, 255, 255);
-    margin: 50px;
-    font-size: 23px;
-    font-weight: 700;
+.aboutMe {
+    width: 550px;
+    margin: 10px 50%;
 }
 
-.textContainer h3 {
-    font-size: 14px;
-    width: 550px;
-    margin-top: 10px;
+.aboutMe h2 {
+    color: #fabecb;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
     opacity: 0;
-    animation: slideRigth 1s ease forwards;
+    animation: slidePlus 1s ease forwards;
     animation-delay: 1.5s;
 }
-.textContainer h1 {
+.aboutMe h3 {
+    text-align: center;
     opacity: 0;
-    font-size: 50px;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 1s;
+    animation: slidePlus 1s ease forwards;
+    animation-delay: 1.5s;
 }
-.svgText { 
-    display: flex;
-    opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 1s;
-}
-
-.svgText img {
-    margin: 5px 0px 0px 10px;
-
-}
-#SlideH2 {
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 1s;
-}
-.btn { 
-    border-radius: 30px;
-    border: transparent;
-    box-shadow: 0 0 20px #00000096;
-    margin: 25px 10px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    opacity: 0;
+.aboutMe a {
+    font-weight: 500;
+    padding: 10px 190px;
+    margin: 20px 0px;
+    border-radius: 100px;
     background-color: #fabecb;
+    color: #000;
+    border: #fabecb 2px solid;
     animation: slideBottom 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 1.5s;
 }
-.btn:hover {
-    
+
+.aboutMe a:hover {
     background-color: #fabecb31;
     color: #fff;
     cursor: pointer;
     transition: .5s;
-
 }
-.btnlink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    color: #000000;
-    font-size: 16.5px;
-    width: 165px;
-    height: 49px;
-    border: #fabecb solid 2px;
-    border-radius: 30px;
-}
-
-.btnlink:hover {
-    color: #fff;
-    
-}
-
-
-
 @keyframes slideTop {
     0% {
         transform: translateY(-100px);
@@ -174,17 +161,6 @@ body {
 
     100% {
         transform: translateY(0);
-        opacity: 1;
-    }
-}
-@keyframes slideRigth{
-    0% {
-        transform: translatex(100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translatex(0);
         opacity: 1;
     }
 }
@@ -209,4 +185,4 @@ body {
         transform: scale(100%);
         opacity: 1;
     }
-}
+} 
