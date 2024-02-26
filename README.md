@@ -13,10 +13,10 @@ Este repositório contém a atividade de criação de uma página pessoal utiliz
 
 A página inclui:
 
-- **Nome:**
-- **Mini Descrição:**
-- **Imagem de Perfil:**
-- **Links de Contato:**
+- **Nome**
+- **Mini Descrição**
+- **Imagem de Perfil**
+- **Links de Contato**
   - GitHub: [LaylaSCastro](https://www.github.com/LaylaSCastro)
   - Instagram: [__.laylacastro.__](https://www.instagram.com/__.laylacastro.__)
   - LinkedIn: [Layla Cristina](https://www.linkedin.com/in/layla-cristina-silva-castro-b665502a8/)
