@@ -1,4 +1,4 @@
-<h1 align="center"> DEVLINKS - INCODE Tech School </h1>
+<h1 align="center">✨DEVLINKS - INCODE Tech School✨</h1>
 
 Este repositório hospeda a atividade "DevLinks" proposta pelo curso Incode 2024.1 módulo 2, na trilha de Front-end. O objetivo da atividade é criar uma página pessoal utilizando HTML/CSS, conforme desafiado. A página inclui informações sobre mim, como meu nome, mini descrição, imagem e links para meus perfis em diferentes plataformas de rede social.
 
