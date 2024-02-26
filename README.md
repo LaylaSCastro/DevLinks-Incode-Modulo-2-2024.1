@@ -1,4 +1,5 @@
-# DEVLINKS - INCODE Tech School
+<h1 align="center"> DEVLINKS - INCODE Tech School </h1>
+![Captura de tela 2024-02-26 154427](https://github.com/LaylaSCastro/DevLinks-Incode-Modulo-2-2024.1/assets/150952875/80f04030-6d88-4336-950d-38c56d880d4f)
 
 Este repositório contém a atividade de criação de uma página pessoal utilizando HTML/CSS, conforme proposto. A página inclui informações sobre mim, como meu nome, mini descrição, imagem e links para meus perfis em diferentes plataformas de rede social.
 
